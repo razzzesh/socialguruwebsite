@@ -50,7 +50,7 @@ function App() {
       <BrowserRouter>
         <main>
           <Switch>
-            <Route path="/" exact component={Landing}></Route>
+            <Route path="/Landing" exact component={Landing}></Route>
             <Route path="/Login" component={Sign_in}></Route>
             <Route path="/Employee" component={Employee}></Route>
             <Route path="/Sign_in" component={Sign_in}></Route>
